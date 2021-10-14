@@ -1,18 +1,20 @@
+#include <stdio.h>
 
-void swap(int a, int b);
+void Swap(int* num1, int* num2);
 
-int main(void)
+void main(void)
 {
 	int a = 10, b = 20;
-	printf("바꾸기 전 a:%d b:%d \n");
-	swap(&a, &b);
-	printf("바꾸기 전 a:%d b:%d \n");
+	printf("바꾸기 전 a: %d b:%d\n", a, b);
+	Swap(&a, &b);
+	printf("바꾸기 후 a: %d b:%d\n", a, b);
 }
 
-void swap(int num1, int num2)
+void Swap(int* num1, int* num2)
 {
 	int temp;
-	temp = num1;
-	num1 = num2;
-	num2 = temp;
+	temp = *num1;
+	*num1 = *num2;
+	*num2 = temp;
+
 }
