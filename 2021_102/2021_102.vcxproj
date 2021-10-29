@@ -142,6 +142,7 @@
     <ClCompile Include="11-06 swap 함수.c">
       <SDLCheck Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">false</SDLCheck>
     </ClCompile>
+    <ClCompile Include="11-07풀어보기.c" />
     <ClCompile Include="VM.c" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
