@@ -24,5 +24,11 @@
     <ClCompile Include="11-07풀어보기.c">
       <Filter>소스 파일</Filter>
     </ClCompile>
+    <ClCompile Include="부록(시험에 안 나옴).c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="성적처리.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
