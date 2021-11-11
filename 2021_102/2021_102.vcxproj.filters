@@ -36,5 +36,11 @@
     <ClCompile Include="12-03배열과 포인터.c">
       <Filter>소스 파일</Filter>
     </ClCompile>
+    <ClCompile Include="12-04포인터를 배열처럼.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="12-05배열과 함수.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>

@@ -1,19 +1,27 @@
 #include <stdio.h>
 
-void Swap(int* num1, int* num2);
+//void print(int* ptr);
+void print(int ptr[]);
+void erase(void);
 
 void main(void)
 {
-	int a = 10, b = 20;
-	printf("바꾸기 전 a: %d b:%d\n", a, b);
-	Swap(&a, &b);
-	printf("바꾸기 후 a: %d b:%d\n", a, b);
+	int arr[4] = { 10,20,30,40 };
+	print(arr);
 }
 
-void Swap(int* num1, int* num2)
+//배열의 모든 요소를 출력
+void print(int ptr[])
 {
-	temp = *num1;
-	*num1 = *num2;
-	*num2 = temp;
+	//i<4는 배열의 크기가 4인것만 가능함(구조적 결함)
+	for (int i = 0; i < 4; i++) {
+		//printf("%d ",*(ptr+i));
+		printf("%d", ptr[i]);
+	}
+	//print("\n");
+}
+
+void erase(void)
+{
 
 }
